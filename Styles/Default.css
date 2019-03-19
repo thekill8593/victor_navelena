@@ -1,0 +1,208 @@
+﻿.Stage_logo_doc_id, .Stage_fondo_id, .Stage_Rectangle_id, .Stage_RectangleCopy_id, .Stage_Group_id {
+    display: none !important;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #395382;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(../images/2019/bg.jpg);
+    background-size: cover;
+}
+
+.form {
+    width: 100%;
+    max-width: 385px;
+    background-color: white;
+    min-height: 250px;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 91px -18px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 91px -18px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 91px -18px rgba(0,0,0,0.75);
+}
+
+@media (max-width: 480px) {
+    .form {
+        margin: 0 5px;
+        border-radius: 0px;
+    }
+}
+
+.form .form-container {
+    width: 100%;
+    padding: 0 20px;
+}
+
+@media (max-width: 480px) {
+    .form .form-container {
+        padding: 0 10px;
+    }
+}
+
+
+.form .form-logo {
+    margin-top: -55px;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 480px) {
+    .form .form-logo {
+        margin-top: -30px;
+    }
+}
+
+.form .form-logo img {
+    max-width: 120px;
+    width: 100%;
+    height: 120px;
+}
+
+.form .finger-print {
+    text-align: center;
+    color: #aaa;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+    .form .finger-print img {
+        width: 50px;
+        height: auto;
+        margin-bottom: 5px;
+    }
+
+    .form .finger-print .text {
+        font-size: 12px;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+.form .form-title {
+    text-align: center;
+    display: block;
+    margin-top: 15px;
+    color: #999;
+    font-size: 14px;
+}
+
+.form .form-input {
+    width: 100%;
+    margin: 15px 0;
+}
+
+.form-password {
+    position: relative;
+}
+
+    .form-password::after {
+        content: '';
+        position: absolute;
+        width: 14px;
+        height: 14px;
+        top: 31%;
+        margin-right: 15px;
+        background-image: url(../images/2019/ico2.png);
+        background-size: 100% 100%;
+        right: 0;
+    }
+
+.form-user {
+    position: relative;
+}
+
+    .form-user::after {
+        content: '';
+        position: absolute;
+        width: 14px;
+        height: 14px;
+        top: 31%;
+        margin-right: 15px;
+        background-image: url(../images/2019/ico1.png);
+        background-size: 100% 100%;
+        right: 0;
+    }
+
+.form .form-input input {
+    width: 100%;
+    background-color: #F2F2F2;
+    padding: 12px 10px;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    border: 1px solid transparent;
+    transition: .3s all ease;
+    font-family: 'Open Sans', sans-serif;
+    padding-right: 40px;
+}
+
+.form .form-input input:focus {
+    border: 1px solid #42bdfc;
+}
+
+.button-container .button {
+    color: #fff;
+    width: 100%;
+    padding: 12px 0;
+    text-transform: uppercase;
+    background-color: #42bdfc;
+    border: none;
+    border-radius: 15px;
+    margin-top: 10px;
+    transition: .3s all ease;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+.button-container .button:hover {
+    background-color: #158CCA;
+}
+
+
+
+.forgot-pw-container {
+    text-align: center;
+    margin: 10px 0;
+    margin-bottom: 35px;
+}
+
+.forgot-pw-container a {
+    text-decoration: none;
+    color: #aaa;
+    font-size: 12px;
+}
+
+.forgot-pw-container a span {
+    color: #4ec1fc;
+}
+
+.forgot-pw-container a:hover {
+    text-decoration: underline;
+}
+
+
+.form .captcha {
+    width: 100%;
+    overflow: hidden;
+    text-align: center:
+}
+
+.Stage_logo_doc_id, .Stage_fondo_id, .Stage_Rectangle_id, .Stage_RectangleCopy_id {
+    display: none !important;
+}
+
+.g-recaptcha {
+}
